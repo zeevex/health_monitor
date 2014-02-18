@@ -231,7 +231,7 @@ END_SRC
   def on_unhealthy() end
 
   def health_check_template
-    File.join( File.dirname(__FILE__), "/../../generators/health_monitor/templates/_health_monitor.html.erb" )
+    File.join( File.dirname(__FILE__), "/../../generators/health_monitor/templates/_health_monitor.html" )
   end
 
   def health_response_code
